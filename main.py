@@ -3,8 +3,13 @@ import matplotlib.pyplot as plt
 import preprocess,helper
 import seaborn as sns
 
+st.set_page_config(page_title='Chat-Analyser', page_icon = "chat-analysis-favicon.jpeg", layout = 'wide', initial_sidebar_state = 'auto')
+# favicon being an object of the same kind as the one you should provide st.image() with (ie. a PIL array for example) or a string (url or local file path)
+
+
 st.sidebar.title("Whatsapp Chat Analyser")
 uploaded_file = st.sidebar.file_uploader("Choose a file", type=["txt"])
+
 
 if uploaded_file is not None:
   bytes_data = uploaded_file.read()
