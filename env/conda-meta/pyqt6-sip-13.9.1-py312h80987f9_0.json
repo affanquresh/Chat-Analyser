@@ -1,0 +1,107 @@
+{
+  "build": "py312h80987f9_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/pyqt6-sip-13.9.1-py312h80987f9_0",
+  "files": [
+    "lib/python3.12/site-packages/PyQt6/sip.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/LICENSE",
+    "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/top_level.txt"
+  ],
+  "fn": "pyqt6-sip-13.9.1-py312h80987f9_0.conda",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/pyqt6-sip-13.9.1-py312h80987f9_0",
+    "type": 1
+  },
+  "md5": "4c4c57e5c847d10f9ae025e884de0fcc",
+  "name": "pyqt6-sip",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/pyqt6-sip-13.9.1-py312h80987f9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/PyQt6/sip.cpython-312-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_1criuwqsz_/croot/pyqt-split_1740498213192/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "fa0fe4bdc156a225c1b9894c8e0c1696bb14472e4137a93e2b3b6e3803a8084f",
+        "sha256_in_prefix": "062968d0ccb77bdd0617c6429d9536348adf24db609f0717ecad6a3da0948568",
+        "size_in_bytes": 176432
+      },
+      {
+        "_path": "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3859cfca971e429d6b79bdfeb1dc9e43aa9592f7295bf28fdd62824097909383",
+        "sha256_in_prefix": "3859cfca971e429d6b79bdfeb1dc9e43aa9592f7295bf28fdd62824097909383",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1eaa5fa2fb290e3b2d3a53a5e03d1642e44ad8c9c64f215f5ea58b9364be9e10",
+        "sha256_in_prefix": "1eaa5fa2fb290e3b2d3a53a5e03d1642e44ad8c9c64f215f5ea58b9364be9e10",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "080ef40a1ae404d2ef6a1bac4bc1299cf2b43c067caea749e9be0f8064e035e5",
+        "sha256_in_prefix": "080ef40a1ae404d2ef6a1bac4bc1299cf2b43c067caea749e9be0f8064e035e5",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "56e8ccdf2a530b2516ea17130dd2b67a3d00455331954d438e587fcd69c382a9",
+        "sha256_in_prefix": "56e8ccdf2a530b2516ea17130dd2b67a3d00455331954d438e587fcd69c382a9",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "abe24d5c013c16ccfac7096c79b03d688c23684d0eccb4083eb10754efe7ff1e",
+        "sha256_in_prefix": "abe24d5c013c16ccfac7096c79b03d688c23684d0eccb4083eb10754efe7ff1e",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/python3.12/site-packages/PyQt6_sip-13.9.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b8685577efad0bd45ce6f3148070b22522ef2ba420869010bb0fde1a6340871f",
+        "sha256_in_prefix": "b8685577efad0bd45ce6f3148070b22522ef2ba420869010bb0fde1a6340871f",
+        "size_in_bytes": 6
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d09824160d021a099704ff208546eb9581f491ab2cc7565254644dc26f7140e9",
+  "size": 71250,
+  "subdir": "osx-arm64",
+  "timestamp": 1740498359000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/pyqt6-sip-13.9.1-py312h80987f9_0.conda",
+  "version": "13.9.1"
+}

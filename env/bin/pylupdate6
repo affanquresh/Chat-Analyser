@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Users/affanqureshi/Desktop/affan/ML/chat-analyser/env/bin/python -m PyQt6.lupdate.pylupdate ${1+"$@"}

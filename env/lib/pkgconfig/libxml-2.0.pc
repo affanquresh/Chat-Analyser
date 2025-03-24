@@ -1,0 +1,13 @@
+prefix=/Users/affanqureshi/Desktop/affan/ML/chat-analyser/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.5
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/Users/affanqureshi/Desktop/affan/ML/chat-analyser/env/lib -lz -L/Users/affanqureshi/Desktop/affan/ML/chat-analyser/env/lib -llzma  -L/Users/affanqureshi/Desktop/affan/ML/chat-analyser/env/lib -liconv    
+Cflags: -I${includedir}/libxml2 -I/Users/affanqureshi/Desktop/affan/ML/chat-analyser/env/include 

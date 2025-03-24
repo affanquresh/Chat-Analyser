@@ -1,0 +1,1720 @@
+{
+  "build": "py312hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main",
+  "constrains": [
+    "nbconvert 7.16.6 *_0",
+    "pandoc >=2.9.2,<4.0.0",
+    "tornado >=6.1"
+  ],
+  "depends": [
+    "beautifulsoup4",
+    "bleach !=5.0.0",
+    "defusedxml",
+    "jinja2 >=3.0",
+    "jupyter_core >=4.7",
+    "jupyterlab_pygments",
+    "markupsafe >=2.0",
+    "mistune >=2.0.3,<4",
+    "nbclient >=0.5.0",
+    "nbformat >=5.7",
+    "packaging",
+    "pandocfilters >=1.4.1",
+    "pygments >=2.4.1",
+    "python >=3.12,<3.13.0a0",
+    "tinycss2",
+    "traitlets >=5.1"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/nbconvert-core-7.16.6-py312hca03da5_0",
+  "files": [
+    "bin/jupyter-dejavu",
+    "bin/jupyter-nbconvert",
+    "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/METADATA",
+    "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/RECORD",
+    "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/WHEEL",
+    "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/licenses/LICENSE",
+    "lib/python3.12/site-packages/nbconvert/__init__.py",
+    "lib/python3.12/site-packages/nbconvert/__main__.py",
+    "lib/python3.12/site-packages/nbconvert/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/__pycache__/conftest.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/__pycache__/nbconvertapp.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/_version.py",
+    "lib/python3.12/site-packages/nbconvert/conftest.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/__init__.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/asciidoc.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/exporter.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/html.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/latex.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/markdown.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/notebook.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/pdf.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/python.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/qt_exporter.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/qt_screenshot.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/qtpdf.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/qtpng.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/rst.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/script.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/slides.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/templateexporter.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/webpdf.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/exporters/asciidoc.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/base.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/exporter.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/html.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/latex.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/markdown.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/notebook.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/pdf.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/python.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/qt_exporter.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/qt_screenshot.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/qtpdf.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/qtpng.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/rst.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/script.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/slides.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/templateexporter.py",
+    "lib/python3.12/site-packages/nbconvert/exporters/webpdf.py",
+    "lib/python3.12/site-packages/nbconvert/filters/__init__.py",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/ansi.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/citation.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/datatypefilter.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/filter_links.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/highlight.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/latex.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/markdown.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/markdown_mistune.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/metadata.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/pandoc.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/strings.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/__pycache__/widgetsdatatypefilter.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/filters/ansi.py",
+    "lib/python3.12/site-packages/nbconvert/filters/citation.py",
+    "lib/python3.12/site-packages/nbconvert/filters/datatypefilter.py",
+    "lib/python3.12/site-packages/nbconvert/filters/filter_links.py",
+    "lib/python3.12/site-packages/nbconvert/filters/highlight.py",
+    "lib/python3.12/site-packages/nbconvert/filters/latex.py",
+    "lib/python3.12/site-packages/nbconvert/filters/markdown.py",
+    "lib/python3.12/site-packages/nbconvert/filters/markdown_mistune.py",
+    "lib/python3.12/site-packages/nbconvert/filters/metadata.py",
+    "lib/python3.12/site-packages/nbconvert/filters/pandoc.py",
+    "lib/python3.12/site-packages/nbconvert/filters/strings.py",
+    "lib/python3.12/site-packages/nbconvert/filters/widgetsdatatypefilter.py",
+    "lib/python3.12/site-packages/nbconvert/nbconvertapp.py",
+    "lib/python3.12/site-packages/nbconvert/postprocessors/__init__.py",
+    "lib/python3.12/site-packages/nbconvert/postprocessors/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/postprocessors/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/postprocessors/__pycache__/serve.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/postprocessors/base.py",
+    "lib/python3.12/site-packages/nbconvert/postprocessors/serve.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__init__.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/clearmetadata.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/clearoutput.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/coalescestreams.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/convertfigures.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/csshtmlheader.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/execute.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/extractattachments.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/extractoutput.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/highlightmagics.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/latex.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/regexremove.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/sanitize.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/svg2pdf.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/tagremove.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/base.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/clearmetadata.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/clearoutput.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/coalescestreams.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/convertfigures.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/csshtmlheader.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/execute.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/extractattachments.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/extractoutput.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/highlightmagics.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/latex.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/regexremove.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/sanitize.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/svg2pdf.py",
+    "lib/python3.12/site-packages/nbconvert/preprocessors/tagremove.py",
+    "lib/python3.12/site-packages/nbconvert/py.typed",
+    "lib/python3.12/site-packages/nbconvert/resources/__init__.py",
+    "lib/python3.12/site-packages/nbconvert/resources/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/templates/README.md",
+    "lib/python3.12/site-packages/nbconvert/templates/skeleton/Makefile",
+    "lib/python3.12/site-packages/nbconvert/templates/skeleton/README.md",
+    "lib/python3.12/site-packages/nbconvert/utils/__init__.py",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/_contextlib_chdir.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/io.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/iso639_1.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/lexers.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/pandoc.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/text.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/__pycache__/version.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/utils/_contextlib_chdir.py",
+    "lib/python3.12/site-packages/nbconvert/utils/base.py",
+    "lib/python3.12/site-packages/nbconvert/utils/exceptions.py",
+    "lib/python3.12/site-packages/nbconvert/utils/io.py",
+    "lib/python3.12/site-packages/nbconvert/utils/iso639_1.py",
+    "lib/python3.12/site-packages/nbconvert/utils/lexers.py",
+    "lib/python3.12/site-packages/nbconvert/utils/pandoc.py",
+    "lib/python3.12/site-packages/nbconvert/utils/text.py",
+    "lib/python3.12/site-packages/nbconvert/utils/version.py",
+    "lib/python3.12/site-packages/nbconvert/writers/__init__.py",
+    "lib/python3.12/site-packages/nbconvert/writers/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/writers/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/writers/__pycache__/debug.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/writers/__pycache__/files.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/writers/__pycache__/stdout.cpython-312.pyc",
+    "lib/python3.12/site-packages/nbconvert/writers/base.py",
+    "lib/python3.12/site-packages/nbconvert/writers/debug.py",
+    "lib/python3.12/site-packages/nbconvert/writers/files.py",
+    "lib/python3.12/site-packages/nbconvert/writers/stdout.py",
+    "share/jupyter/nbconvert/templates/asciidoc/conf.json",
+    "share/jupyter/nbconvert/templates/asciidoc/index.asciidoc.j2",
+    "share/jupyter/nbconvert/templates/base/cell_id_anchor.j2",
+    "share/jupyter/nbconvert/templates/base/celltags.j2",
+    "share/jupyter/nbconvert/templates/base/display_priority.j2",
+    "share/jupyter/nbconvert/templates/base/jupyter_widgets.html.j2",
+    "share/jupyter/nbconvert/templates/base/mathjax.html.j2",
+    "share/jupyter/nbconvert/templates/base/null.j2",
+    "share/jupyter/nbconvert/templates/basic/conf.json",
+    "share/jupyter/nbconvert/templates/basic/index.html.j2",
+    "share/jupyter/nbconvert/templates/classic/base.html.j2",
+    "share/jupyter/nbconvert/templates/classic/conf.json",
+    "share/jupyter/nbconvert/templates/classic/index.html.j2",
+    "share/jupyter/nbconvert/templates/classic/static/style.css",
+    "share/jupyter/nbconvert/templates/compatibility/display_priority.tpl",
+    "share/jupyter/nbconvert/templates/compatibility/full.tpl",
+    "share/jupyter/nbconvert/templates/lab/base.html.j2",
+    "share/jupyter/nbconvert/templates/lab/conf.json",
+    "share/jupyter/nbconvert/templates/lab/index.html.j2",
+    "share/jupyter/nbconvert/templates/lab/mermaidjs.html.j2",
+    "share/jupyter/nbconvert/templates/lab/static/index.css",
+    "share/jupyter/nbconvert/templates/lab/static/theme-dark.css",
+    "share/jupyter/nbconvert/templates/lab/static/theme-light.css",
+    "share/jupyter/nbconvert/templates/latex/base.tex.j2",
+    "share/jupyter/nbconvert/templates/latex/conf.json",
+    "share/jupyter/nbconvert/templates/latex/display_priority.j2",
+    "share/jupyter/nbconvert/templates/latex/document_contents.tex.j2",
+    "share/jupyter/nbconvert/templates/latex/index.tex.j2",
+    "share/jupyter/nbconvert/templates/latex/null.j2",
+    "share/jupyter/nbconvert/templates/latex/report.tex.j2",
+    "share/jupyter/nbconvert/templates/latex/style_bw_ipython.tex.j2",
+    "share/jupyter/nbconvert/templates/latex/style_bw_python.tex.j2",
+    "share/jupyter/nbconvert/templates/latex/style_ipython.tex.j2",
+    "share/jupyter/nbconvert/templates/latex/style_jupyter.tex.j2",
+    "share/jupyter/nbconvert/templates/latex/style_python.tex.j2",
+    "share/jupyter/nbconvert/templates/markdown/conf.json",
+    "share/jupyter/nbconvert/templates/markdown/index.md.j2",
+    "share/jupyter/nbconvert/templates/python/conf.json",
+    "share/jupyter/nbconvert/templates/python/index.py.j2",
+    "share/jupyter/nbconvert/templates/reveal/base.html.j2",
+    "share/jupyter/nbconvert/templates/reveal/cellslidedata.j2",
+    "share/jupyter/nbconvert/templates/reveal/conf.json",
+    "share/jupyter/nbconvert/templates/reveal/index.html.j2",
+    "share/jupyter/nbconvert/templates/reveal/static/custom_reveal.css",
+    "share/jupyter/nbconvert/templates/rst/conf.json",
+    "share/jupyter/nbconvert/templates/rst/index.rst.j2",
+    "share/jupyter/nbconvert/templates/script/conf.json",
+    "share/jupyter/nbconvert/templates/script/script.j2",
+    "share/jupyter/nbconvert/templates/webpdf/conf.json",
+    "share/jupyter/nbconvert/templates/webpdf/index.pdf.j2"
+  ],
+  "fn": "nbconvert-core-7.16.6-py312hca03da5_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/nbconvert-core-7.16.6-py312hca03da5_0",
+    "type": 1
+  },
+  "md5": "818b8ddbad2dcc577c9efcac8b4f8ab5",
+  "name": "nbconvert-core",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/nbconvert-core-7.16.6-py312hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/jupyter-dejavu",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_e4p9a3fnm6/croot/nbconvert-meta_1741184656667/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "f0371c7ef4cdb15b6083a44bba89e2526f33d710de3fd5fe4d813321928313c9",
+        "sha256_in_prefix": "6bb0d397f2b39d34086915aa1113207315f31807b5f7660f1fead396f964b5fe",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "bin/jupyter-nbconvert",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_e4p9a3fnm6/croot/nbconvert-meta_1741184656667/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "7e62f39f67af84436d140971b75073650f70c0de4820803fe75e57965e7cd53a",
+        "sha256_in_prefix": "4743ca68a90e4d767f8e89de979df94b9ca41241f42e8ac11c872bfb1acfb7c7",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a67a55433e53370cb1b52b2f396579b4cba30b9adada4f89545c4e25720c3373",
+        "sha256_in_prefix": "a67a55433e53370cb1b52b2f396579b4cba30b9adada4f89545c4e25720c3373",
+        "size_in_bytes": 8465
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "85e8bca400558e9fd91eba4fc4a525560b8b0b0cbdfc22c51c47a05eada78bdd",
+        "sha256_in_prefix": "85e8bca400558e9fd91eba4fc4a525560b8b0b0cbdfc22c51c47a05eada78bdd",
+        "size_in_bytes": 17929
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "acc44c0194cb4f165c84521500f3a8726a23dc7c8ee0f937dd7be995f01b4720",
+        "sha256_in_prefix": "acc44c0194cb4f165c84521500f3a8726a23dc7c8ee0f937dd7be995f01b4720",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "d119fdc67bc7bbb8c846de5ed1b8b1b2db73f6c26c2cad6da65aafccee4e943b",
+        "sha256_in_prefix": "d119fdc67bc7bbb8c846de5ed1b8b1b2db73f6c26c2cad6da65aafccee4e943b",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert-7.16.6.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5ca74e4d2eeb9330b0d129c25f874d3544a13413bc62ae8d367819100d095072",
+        "sha256_in_prefix": "5ca74e4d2eeb9330b0d129c25f874d3544a13413bc62ae8d367819100d095072",
+        "size_in_bytes": 1588
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0d8fa5bf423c774567d4807599906b15a97f73accf0a0c58f182cb4c869895bd",
+        "sha256_in_prefix": "0d8fa5bf423c774567d4807599906b15a97f73accf0a0c58f182cb4c869895bd",
+        "size_in_bytes": 1364
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "33678c3e44eddcbcbdcf4fa089afc9f32584d4a6c006f58af9715e686f72c67b",
+        "sha256_in_prefix": "33678c3e44eddcbcbdcf4fa089afc9f32584d4a6c006f58af9715e686f72c67b",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b03fe258a2b0574c9b8708157c62d9d10da9c9392d7223c26f9a8dfe3e4efe1d",
+        "sha256_in_prefix": "b03fe258a2b0574c9b8708157c62d9d10da9c9392d7223c26f9a8dfe3e4efe1d",
+        "size_in_bytes": 1186
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ffe031686b56e0c3a8eb3cacdeba9cb38e0cec388fb999edb4115c956d495f63",
+        "sha256_in_prefix": "ffe031686b56e0c3a8eb3cacdeba9cb38e0cec388fb999edb4115c956d495f63",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "72573b59a2467c27456e2069056a383c9d78d5fe458aee309e3d71f6cd41c842",
+        "sha256_in_prefix": "72573b59a2467c27456e2069056a383c9d78d5fe458aee309e3d71f6cd41c842",
+        "size_in_bytes": 769
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/__pycache__/conftest.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0bcfe4b7c63c34ce0bab86bb2c875cba9633414bf94c6d368799c85b998a3c50",
+        "sha256_in_prefix": "0bcfe4b7c63c34ce0bab86bb2c875cba9633414bf94c6d368799c85b998a3c50",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/__pycache__/nbconvertapp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4a71577328eacf585e8edbbb7a3905fa2949c4e07f8e67d207ed7ad9a7c1b06",
+        "sha256_in_prefix": "b4a71577328eacf585e8edbbb7a3905fa2949c4e07f8e67d207ed7ad9a7c1b06",
+        "size_in_bytes": 27715
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/_version.py",
+        "path_type": "hardlink",
+        "sha256": "1d26a07f6c16a689b0dd8575ea77df1fb81c9b8fd05f1886b1fd9ceaca5fe7aa",
+        "sha256_in_prefix": "1d26a07f6c16a689b0dd8575ea77df1fb81c9b8fd05f1886b1fd9ceaca5fe7aa",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "009a2b44613d41c67d9faf3374cf90d093843ad93d4596659b14e5dac6a1c149",
+        "sha256_in_prefix": "009a2b44613d41c67d9faf3374cf90d093843ad93d4596659b14e5dac6a1c149",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "17785dd6c8a76d1aa7dc727b942023c0bc58bd75c298f9b40b72b6cc8dd0d353",
+        "sha256_in_prefix": "17785dd6c8a76d1aa7dc727b942023c0bc58bd75c298f9b40b72b6cc8dd0d353",
+        "size_in_bytes": 1150
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b11426f08f10f8d0239871d5ccb8b8c1ad3b8ce3847b197a750378ccf0093c75",
+        "sha256_in_prefix": "b11426f08f10f8d0239871d5ccb8b8c1ad3b8ce3847b197a750378ccf0093c75",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/asciidoc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "836250c12f8e60e8e5744f36f5939c8f9bf7fd9e9fef3ac3d6cceab006403a04",
+        "sha256_in_prefix": "836250c12f8e60e8e5744f36f5939c8f9bf7fd9e9fef3ac3d6cceab006403a04",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "98455dc9cc0125e65aba6552ba45a9595f17e6a970f8d7d0a3a0251071f1d929",
+        "sha256_in_prefix": "98455dc9cc0125e65aba6552ba45a9595f17e6a970f8d7d0a3a0251071f1d929",
+        "size_in_bytes": 6020
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/exporter.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b42921a4a16bb19a6a2caa4da9c51efb6bd3897f3f42552a5faf7317e3101de",
+        "sha256_in_prefix": "4b42921a4a16bb19a6a2caa4da9c51efb6bd3897f3f42552a5faf7317e3101de",
+        "size_in_bytes": 13605
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/html.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dca781305284dd9a65e4ec4605443374e40d98d848ba6dbc571af0afb876695e",
+        "sha256_in_prefix": "dca781305284dd9a65e4ec4605443374e40d98d848ba6dbc571af0afb876695e",
+        "size_in_bytes": 17095
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/latex.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "507c2540fb8e5402934c035695d0bc42be18db4f91616f86e214aa0118209e3c",
+        "sha256_in_prefix": "507c2540fb8e5402934c035695d0bc42be18db4f91616f86e214aa0118209e3c",
+        "size_in_bytes": 4600
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/markdown.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d90c55c5bab5358849f28890a00d0e326ae59740bc7ce1e9af86782b0fe497d1",
+        "sha256_in_prefix": "d90c55c5bab5358849f28890a00d0e326ae59740bc7ce1e9af86782b0fe497d1",
+        "size_in_bytes": 2101
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/notebook.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a43c221509e8282e48922848189838bae1ca141eb5ae6255331e7185ccdd3c0a",
+        "sha256_in_prefix": "a43c221509e8282e48922848189838bae1ca141eb5ae6255331e7185ccdd3c0a",
+        "size_in_bytes": 2124
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/pdf.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cdaf73fac9cc49a81ce89e9ccc80cd83ced1d7ca099bd1861f642ee50b000b9d",
+        "sha256_in_prefix": "cdaf73fac9cc49a81ce89e9ccc80cd83ced1d7ca099bd1861f642ee50b000b9d",
+        "size_in_bytes": 10471
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/python.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b5e375202a7094c16352ed72a710535395f29b40812cca0f4d70401c7cbcd9d",
+        "sha256_in_prefix": "5b5e375202a7094c16352ed72a710535395f29b40812cca0f4d70401c7cbcd9d",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/qt_exporter.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "24e7f6eaa2f8ee5b921f94d31b539a863cc02d2b7ea9b4a019f4c540f17969bc",
+        "sha256_in_prefix": "24e7f6eaa2f8ee5b921f94d31b539a863cc02d2b7ea9b4a019f4c540f17969bc",
+        "size_in_bytes": 3565
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/qt_screenshot.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ced9333ffdb308423e24ac8336a023ecd7aefc08dc4956f51e2782538d9aaefe",
+        "sha256_in_prefix": "ced9333ffdb308423e24ac8336a023ecd7aefc08dc4956f51e2782538d9aaefe",
+        "size_in_bytes": 5417
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/qtpdf.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8123e6aa15e6cd5d32ce54630acef50a98156c5287bdea3b6362d708cb178a99",
+        "sha256_in_prefix": "8123e6aa15e6cd5d32ce54630acef50a98156c5287bdea3b6362d708cb178a99",
+        "size_in_bytes": 1079
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/qtpng.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "226222e69b1caeaff23df1c8c1da9d5efe131d92eb1e166d492aded4af9ca04c",
+        "sha256_in_prefix": "226222e69b1caeaff23df1c8c1da9d5efe131d92eb1e166d492aded4af9ca04c",
+        "size_in_bytes": 713
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/rst.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "138b61daecd7ea845ab9d8c97ddb5ccb81cb78527be0591e44033d1ad8f16265",
+        "sha256_in_prefix": "138b61daecd7ea845ab9d8c97ddb5ccb81cb78527be0591e44033d1ad8f16265",
+        "size_in_bytes": 2553
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/script.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c169b5ada02c32926d7643e18c87a1bb8d11c380a1017c578625e373899654c4",
+        "sha256_in_prefix": "c169b5ada02c32926d7643e18c87a1bb8d11c380a1017c578625e373899654c4",
+        "size_in_bytes": 3835
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/slides.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "13af8d239d9bd9cd21eaba111dc2609c08465c93d262e174d2fecf34df6ea4aa",
+        "sha256_in_prefix": "13af8d239d9bd9cd21eaba111dc2609c08465c93d262e174d2fecf34df6ea4aa",
+        "size_in_bytes": 7904
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/templateexporter.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0284eb9a75e57bc54065362915ae14f97c5b6f8701714f935d0c55115f40fc0f",
+        "sha256_in_prefix": "0284eb9a75e57bc54065362915ae14f97c5b6f8701714f935d0c55115f40fc0f",
+        "size_in_bytes": 32744
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/__pycache__/webpdf.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6795f7c760007dc93d8a7a7e9d3c90842126a6b1717d95bf06adec9da5040e68",
+        "sha256_in_prefix": "6795f7c760007dc93d8a7a7e9d3c90842126a6b1717d95bf06adec9da5040e68",
+        "size_in_bytes": 8109
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/asciidoc.py",
+        "path_type": "hardlink",
+        "sha256": "209f91c1fdaa2af358293df14291c57a64b49faa1de466b8199c8e59f1bec317",
+        "sha256_in_prefix": "209f91c1fdaa2af358293df14291c57a64b49faa1de466b8199c8e59f1bec317",
+        "size_in_bytes": 1530
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/base.py",
+        "path_type": "hardlink",
+        "sha256": "4fdf7446061babda967f91290be3c2ca9665d9923e04e702501f08f5f382d350",
+        "sha256_in_prefix": "4fdf7446061babda967f91290be3c2ca9665d9923e04e702501f08f5f382d350",
+        "size_in_bytes": 4972
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/exporter.py",
+        "path_type": "hardlink",
+        "sha256": "0e2618cc097503e59009666a16f2e5d443802a4891cf1060dd953684b272ca5d",
+        "sha256_in_prefix": "0e2618cc097503e59009666a16f2e5d443802a4891cf1060dd953684b272ca5d",
+        "size_in_bytes": 12877
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/html.py",
+        "path_type": "hardlink",
+        "sha256": "18e8d3079bcb6d35722267d6e703fcb61423ccf3045a126a790659d1bbd3a4a3",
+        "sha256_in_prefix": "18e8d3079bcb6d35722267d6e703fcb61423ccf3045a126a790659d1bbd3a4a3",
+        "size_in_bytes": 13779
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/latex.py",
+        "path_type": "hardlink",
+        "sha256": "f0d7d17214331952200396fe7617edd5e462ff40ba3ae9cdd08617aa6bac8d2a",
+        "sha256_in_prefix": "f0d7d17214331952200396fe7617edd5e462ff40ba3ae9cdd08617aa6bac8d2a",
+        "size_in_bytes": 3847
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/markdown.py",
+        "path_type": "hardlink",
+        "sha256": "07f25875afc5e2772f32f93052f7a6f28a09d8cff3a0700465969caf05e547c7",
+        "sha256_in_prefix": "07f25875afc5e2772f32f93052f7a6f28a09d8cff3a0700465969caf05e547c7",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "4b3db396e3a3f6a609f0aba8d381c762026d108d1916c77140b84aab84342c7d",
+        "sha256_in_prefix": "4b3db396e3a3f6a609f0aba8d381c762026d108d1916c77140b84aab84342c7d",
+        "size_in_bytes": 1423
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/pdf.py",
+        "path_type": "hardlink",
+        "sha256": "2118d89d4cd2911df9c2b7303ed18c654cea618e4931f794b965385be8712a24",
+        "sha256_in_prefix": "2118d89d4cd2911df9c2b7303ed18c654cea618e4931f794b965385be8712a24",
+        "size_in_bytes": 7932
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/python.py",
+        "path_type": "hardlink",
+        "sha256": "a560c86f52b552ec74327d2e1a689530ff9c22a4addefdd966b181fb21b26f1a",
+        "sha256_in_prefix": "a560c86f52b552ec74327d2e1a689530ff9c22a4addefdd966b181fb21b26f1a",
+        "size_in_bytes": 675
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/qt_exporter.py",
+        "path_type": "hardlink",
+        "sha256": "66e8a251ea0f3dbbd2003df1ca0037f3a307a6ba51641f496fd56e7b1d8a0004",
+        "sha256_in_prefix": "66e8a251ea0f3dbbd2003df1ca0037f3a307a6ba51641f496fd56e7b1d8a0004",
+        "size_in_bytes": 2113
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/qt_screenshot.py",
+        "path_type": "hardlink",
+        "sha256": "63c2ccbc49b2d480539c8ffee48583de9ba0436f8614997846f79e2c088dac83",
+        "sha256_in_prefix": "63c2ccbc49b2d480539c8ffee48583de9ba0436f8614997846f79e2c088dac83",
+        "size_in_bytes": 3312
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/qtpdf.py",
+        "path_type": "hardlink",
+        "sha256": "1a811e92210cb448b99304c5acb3ff42f12f4a2e58b3fb033d22aadba3523b48",
+        "sha256_in_prefix": "1a811e92210cb448b99304c5acb3ff42f12f4a2e58b3fb033d22aadba3523b48",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/qtpng.py",
+        "path_type": "hardlink",
+        "sha256": "727c00d5415b1329d8d5a6cc2051201c74935fa55b400dca3680d8990fb228cf",
+        "sha256_in_prefix": "727c00d5415b1329d8d5a6cc2051201c74935fa55b400dca3680d8990fb228cf",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/rst.py",
+        "path_type": "hardlink",
+        "sha256": "8cc6661bca55989aa17e0331cb8c09e1a2ff18b691813dc31cf7a24d8f763141",
+        "sha256_in_prefix": "8cc6661bca55989aa17e0331cb8c09e1a2ff18b691813dc31cf7a24d8f763141",
+        "size_in_bytes": 1762
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/script.py",
+        "path_type": "hardlink",
+        "sha256": "4cc02513d4ec6b4179ceef910129fdd2985c2b9ed704e5f9cbc9695426efa15c",
+        "sha256_in_prefix": "4cc02513d4ec6b4179ceef910129fdd2985c2b9ed704e5f9cbc9695426efa15c",
+        "size_in_bytes": 3177
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/slides.py",
+        "path_type": "hardlink",
+        "sha256": "9978fb3460ce9b3f13da086f09a95fc351e056cc84a52156e1ec2038d7214812",
+        "sha256_in_prefix": "9978fb3460ce9b3f13da086f09a95fc351e056cc84a52156e1ec2038d7214812",
+        "size_in_bytes": 7099
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/templateexporter.py",
+        "path_type": "hardlink",
+        "sha256": "88d6ce342266477eb24c2eee7b988e31554c17fff0ffd2f02ed2a0ef881058ec",
+        "sha256_in_prefix": "88d6ce342266477eb24c2eee7b988e31554c17fff0ffd2f02ed2a0ef881058ec",
+        "size_in_bytes": 27557
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/exporters/webpdf.py",
+        "path_type": "hardlink",
+        "sha256": "fe3edd72ff72083186b3f92ff52aa46d9cf1897d4361bc4861d8a447dd69869d",
+        "sha256_in_prefix": "fe3edd72ff72083186b3f92ff52aa46d9cf1897d4361bc4861d8a447dd69869d",
+        "size_in_bytes": 6678
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ba058f7471b7412105c176088e51573a7c5a4bbee0450ab239dd5dd5e037c06e",
+        "sha256_in_prefix": "ba058f7471b7412105c176088e51573a7c5a4bbee0450ab239dd5dd5e037c06e",
+        "size_in_bytes": 1578
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "459b833e06f52c2e03aec0b5fb54d793425bc0bdab66bafa4b02130f24771918",
+        "sha256_in_prefix": "459b833e06f52c2e03aec0b5fb54d793425bc0bdab66bafa4b02130f24771918",
+        "size_in_bytes": 1458
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/ansi.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c55e707d61dbba1a15f6455e7c163f4eb526ac80aa3720bbc91bc8057da0780a",
+        "sha256_in_prefix": "c55e707d61dbba1a15f6455e7c163f4eb526ac80aa3720bbc91bc8057da0780a",
+        "size_in_bytes": 8667
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/citation.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "381e1896dff89d87bd0ac2b92e09ad563e6184391ebc9d932fbb33bace2430e4",
+        "sha256_in_prefix": "381e1896dff89d87bd0ac2b92e09ad563e6184391ebc9d932fbb33bace2430e4",
+        "size_in_bytes": 3907
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/datatypefilter.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2544f9a32d3d801bf2a8983666357d3383cbd49ce9ca8ded411d9dc41788726",
+        "sha256_in_prefix": "e2544f9a32d3d801bf2a8983666357d3383cbd49ce9ca8ded411d9dc41788726",
+        "size_in_bytes": 1483
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/filter_links.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "29650d7138171022548fef0d36dbce104e7f596484d781645724aaa31f8679c0",
+        "sha256_in_prefix": "29650d7138171022548fef0d36dbce104e7f596484d781645724aaa31f8679c0",
+        "size_in_bytes": 1930
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/highlight.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd411214bf01c0e186f16795bcb0427f5f0eac024b53e8fc49023502dbf50e4a",
+        "sha256_in_prefix": "dd411214bf01c0e186f16795bcb0427f5f0eac024b53e8fc49023502dbf50e4a",
+        "size_in_bytes": 6651
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/latex.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0964df4b13e74488eef4e358c915634e4596cb31126503075b3331866e56deaa",
+        "sha256_in_prefix": "0964df4b13e74488eef4e358c915634e4596cb31126503075b3331866e56deaa",
+        "size_in_bytes": 1318
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/markdown.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0b3871084ef9ae549efd81b624efe27b94004f920172d00cc7414a3a1247b5f",
+        "sha256_in_prefix": "c0b3871084ef9ae549efd81b624efe27b94004f920172d00cc7414a3a1247b5f",
+        "size_in_bytes": 3431
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/markdown_mistune.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e7ad212ba9f1145e58e5c212cddb645609e6bab12cdbbd32ee25eafb5503772",
+        "sha256_in_prefix": "5e7ad212ba9f1145e58e5c212cddb645609e6bab12cdbbd32ee25eafb5503772",
+        "size_in_bytes": 21588
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/metadata.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0f751b6a89186063164474f76c537584ee7e4e5021e69c6747c1797e57619a4",
+        "sha256_in_prefix": "b0f751b6a89186063164474f76c537584ee7e4e5021e69c6747c1797e57619a4",
+        "size_in_bytes": 758
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/pandoc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "83d9bebb4f5c2eb726d18d82fa0310df6a83c8cf75596d65f5163fb8afacabea",
+        "sha256_in_prefix": "83d9bebb4f5c2eb726d18d82fa0310df6a83c8cf75596d65f5163fb8afacabea",
+        "size_in_bytes": 2990
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/strings.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a97291a6fca6110b3ecfb5dae67d19abf6fab72670d012d5e26ed8b3659b57bb",
+        "sha256_in_prefix": "a97291a6fca6110b3ecfb5dae67d19abf6fab72670d012d5e26ed8b3659b57bb",
+        "size_in_bytes": 10021
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/__pycache__/widgetsdatatypefilter.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf605ba7b83eb8fba3b64f17530104b574f0d631c67fb91353804854b5cdbfea",
+        "sha256_in_prefix": "bf605ba7b83eb8fba3b64f17530104b574f0d631c67fb91353804854b5cdbfea",
+        "size_in_bytes": 2920
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/ansi.py",
+        "path_type": "hardlink",
+        "sha256": "40b7d94834aedc703bdd76700656a1693b3ab12e402b4144005c974a75ab834e",
+        "sha256_in_prefix": "40b7d94834aedc703bdd76700656a1693b3ab12e402b4144005c974a75ab834e",
+        "size_in_bytes": 8042
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/citation.py",
+        "path_type": "hardlink",
+        "sha256": "690bc0067826b5b8cb7c5d90087e770d76c68d79ca925ab0858ce96a71b4a729",
+        "sha256_in_prefix": "690bc0067826b5b8cb7c5d90087e770d76c68d79ca925ab0858ce96a71b4a729",
+        "size_in_bytes": 3694
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/datatypefilter.py",
+        "path_type": "hardlink",
+        "sha256": "69b321492005318613658fcb144807cc475ea06a96567cf7319a204eb6a5dec3",
+        "sha256_in_prefix": "69b321492005318613658fcb144807cc475ea06a96567cf7319a204eb6a5dec3",
+        "size_in_bytes": 1556
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/filter_links.py",
+        "path_type": "hardlink",
+        "sha256": "04c84430942f74614264bee88fb8d987deacc1d1b170797a54ebb75721b1c1bd",
+        "sha256_in_prefix": "04c84430942f74614264bee88fb8d987deacc1d1b170797a54ebb75721b1c1bd",
+        "size_in_bytes": 1556
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/highlight.py",
+        "path_type": "hardlink",
+        "sha256": "eefbca4b88df4eeb82e297a704b528a24c149e5204094a76e05c0e47a58a916f",
+        "sha256_in_prefix": "eefbca4b88df4eeb82e297a704b528a24c149e5204094a76e05c0e47a58a916f",
+        "size_in_bytes": 6330
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/latex.py",
+        "path_type": "hardlink",
+        "sha256": "b58f307ac09ca9363b8bd28463d66b50d050dc32cc0ab8e7bff767be2e7881f7",
+        "sha256_in_prefix": "b58f307ac09ca9363b8bd28463d66b50d050dc32cc0ab8e7bff767be2e7881f7",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/markdown.py",
+        "path_type": "hardlink",
+        "sha256": "79ef22e9a4e9832408394212e79b05d123b7fd46ce36978039060d484a07b5aa",
+        "sha256_in_prefix": "79ef22e9a4e9832408394212e79b05d123b7fd46ce36978039060d484a07b5aa",
+        "size_in_bytes": 3399
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/markdown_mistune.py",
+        "path_type": "hardlink",
+        "sha256": "f09b6e77469f3becd5c4f2df1a399be84ce1c6aadc0e0e818d7c7327882539f1",
+        "sha256_in_prefix": "f09b6e77469f3becd5c4f2df1a399be84ce1c6aadc0e0e818d7c7327882539f1",
+        "size_in_bytes": 18978
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "d6a9a14e6f09dc3b1ab13f5a31ddf5427045a09a4608141dfe4c135a2f92869b",
+        "sha256_in_prefix": "d6a9a14e6f09dc3b1ab13f5a31ddf5427045a09a4608141dfe4c135a2f92869b",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/pandoc.py",
+        "path_type": "hardlink",
+        "sha256": "1696b28ff40ba24015b34ae307a65abbbb7595b0a7545e91665641b3464719d6",
+        "sha256_in_prefix": "1696b28ff40ba24015b34ae307a65abbbb7595b0a7545e91665641b3464719d6",
+        "size_in_bytes": 2867
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/strings.py",
+        "path_type": "hardlink",
+        "sha256": "112aa904092fcd439180acbd4b21a85bbaa17eb8fc964f998f446a932512df36",
+        "sha256_in_prefix": "112aa904092fcd439180acbd4b21a85bbaa17eb8fc964f998f446a932512df36",
+        "size_in_bytes": 7536
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/filters/widgetsdatatypefilter.py",
+        "path_type": "hardlink",
+        "sha256": "7d28fd11036602282471eab8b3f5d57f18fa426178df2fb6aa30bdf72a8053d1",
+        "sha256_in_prefix": "7d28fd11036602282471eab8b3f5d57f18fa426178df2fb6aa30bdf72a8053d1",
+        "size_in_bytes": 2820
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/nbconvertapp.py",
+        "path_type": "hardlink",
+        "sha256": "d57916338f8104339eab501a767d1bff9f2c88a5a4d0db2ead04c3e9bc2d2e49",
+        "sha256_in_prefix": "d57916338f8104339eab501a767d1bff9f2c88a5a4d0db2ead04c3e9bc2d2e49",
+        "size_in_bytes": 24790
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/postprocessors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1a27e571c4be2e6be8fe8dfb3ae04dc88f3efe56cb60e5f9b410cc05e65d0507",
+        "sha256_in_prefix": "1a27e571c4be2e6be8fe8dfb3ae04dc88f3efe56cb60e5f9b410cc05e65d0507",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/postprocessors/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9863861f371bb9c2f77e43567ebfd00bd5f06127f8361a439f5bdcbb1b7319fe",
+        "sha256_in_prefix": "9863861f371bb9c2f77e43567ebfd00bd5f06127f8361a439f5bdcbb1b7319fe",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/postprocessors/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "73717bc712e180fb958200eb225d6137f1a6d4693ccb9a4d3005ca585b8ae5f3",
+        "sha256_in_prefix": "73717bc712e180fb958200eb225d6137f1a6d4693ccb9a4d3005ca585b8ae5f3",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/postprocessors/__pycache__/serve.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bef55ef2f33abb8d5d791cd37bb79feb4cca373746947b3c911fd71269a7e2b",
+        "sha256_in_prefix": "9bef55ef2f33abb8d5d791cd37bb79feb4cca373746947b3c911fd71269a7e2b",
+        "size_in_bytes": 6785
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/postprocessors/base.py",
+        "path_type": "hardlink",
+        "sha256": "fbd0012a1a74ac4f8e6e955c7577d2229677ffa3671ae3eee09d43aa08035bc3",
+        "sha256_in_prefix": "fbd0012a1a74ac4f8e6e955c7577d2229677ffa3671ae3eee09d43aa08035bc3",
+        "size_in_bytes": 1154
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/postprocessors/serve.py",
+        "path_type": "hardlink",
+        "sha256": "aa4974ceb185411c66ed677e4e66fad25d585ec05aa94efead4f06d0a5d31c9a",
+        "sha256_in_prefix": "aa4974ceb185411c66ed677e4e66fad25d585ec05aa94efead4f06d0a5d31c9a",
+        "size_in_bytes": 4366
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "897e1c4c8606fc9ead9feca3dce18733bfcb493cf6581cd7ca46822e70695c8d",
+        "sha256_in_prefix": "897e1c4c8606fc9ead9feca3dce18733bfcb493cf6581cd7ca46822e70695c8d",
+        "size_in_bytes": 1279
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2242da86203746db8b90d801567d50f3ef2e668b15dcf57b60e5e61dcc581b19",
+        "sha256_in_prefix": "2242da86203746db8b90d801567d50f3ef2e668b15dcf57b60e5e61dcc581b19",
+        "size_in_bytes": 1172
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4eba1f91ba0fcc12286706b5f0008d8005dac677c3f470664d2fe911222e3e00",
+        "sha256_in_prefix": "4eba1f91ba0fcc12286706b5f0008d8005dac677c3f470664d2fe911222e3e00",
+        "size_in_bytes": 3687
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/clearmetadata.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe66c5f83413e7580359a5801ef0602f11aec6de591c5fc3c38cc949e32fb948",
+        "sha256_in_prefix": "fe66c5f83413e7580359a5801ef0602f11aec6de591c5fc3c38cc949e32fb948",
+        "size_in_bytes": 4879
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/clearoutput.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5811a82a26e0558a7ce1fccca6561a0d2ed7973cc82e7dc0bc9ff7d877f7c687",
+        "sha256_in_prefix": "5811a82a26e0558a7ce1fccca6561a0d2ed7973cc82e7dc0bc9ff7d877f7c687",
+        "size_in_bytes": 1340
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/coalescestreams.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "227b6103dafe64b496f17fd1a031eb5bcce4efeaf31af493c5f87709cfd87715",
+        "sha256_in_prefix": "227b6103dafe64b496f17fd1a031eb5bcce4efeaf31af493c5f87709cfd87715",
+        "size_in_bytes": 1829
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/convertfigures.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f91a740cf9244111800d04f9435a02f3ab1e6b37bd95a9d1f428d023a22db673",
+        "sha256_in_prefix": "f91a740cf9244111800d04f9435a02f3ab1e6b37bd95a9d1f428d023a22db673",
+        "size_in_bytes": 2334
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/csshtmlheader.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8331d71e41608a07fbdc841d39f7cce1e06624614a8687b2818b50942052fd95",
+        "sha256_in_prefix": "8331d71e41608a07fbdc841d39f7cce1e06624614a8687b2818b50942052fd95",
+        "size_in_bytes": 4419
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/execute.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbcaa3f0d9f0da297646e22c8042c5f22f12ae053345df709d04f2d83b8998a2",
+        "sha256_in_prefix": "bbcaa3f0d9f0da297646e22c8042c5f22f12ae053345df709d04f2d83b8998a2",
+        "size_in_bytes": 5654
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/extractattachments.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "83b55f53ae5e4ba02d85984b3d24c6433d2570e87a80c95ec3e27bf0afab2170",
+        "sha256_in_prefix": "83b55f53ae5e4ba02d85984b3d24c6433d2570e87a80c95ec3e27bf0afab2170",
+        "size_in_bytes": 4116
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/extractoutput.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3560c873cd0970c221e2e3a7e3f26de88e9a3b2ce9fa753647ec64381bc8baa8",
+        "sha256_in_prefix": "3560c873cd0970c221e2e3a7e3f26de88e9a3b2ce9fa753647ec64381bc8baa8",
+        "size_in_bytes": 5253
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/highlightmagics.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f2e7d1eddebb6ad7e9943981fa65d4e9f2457ef1671da4fa6681d319ddd7146",
+        "sha256_in_prefix": "6f2e7d1eddebb6ad7e9943981fa65d4e9f2457ef1671da4fa6681d319ddd7146",
+        "size_in_bytes": 3569
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/latex.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b33cdd65b699b77edad62f0a90090d927d0de94fee4613590c6b6e1bc0c4adb",
+        "sha256_in_prefix": "3b33cdd65b699b77edad62f0a90090d927d0de94fee4613590c6b6e1bc0c4adb",
+        "size_in_bytes": 2850
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/regexremove.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "233bbb53675487938d63b7ee878d59efe7b525eb9bd639ab2a609e14a95b702a",
+        "sha256_in_prefix": "233bbb53675487938d63b7ee878d59efe7b525eb9bd639ab2a609e14a95b702a",
+        "size_in_bytes": 3083
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/sanitize.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "142e2b4689e9766a6b9dc3f15a0367a0b10a62c193442fdb81df4ffe2a43553d",
+        "sha256_in_prefix": "142e2b4689e9766a6b9dc3f15a0367a0b10a62c193442fdb81df4ffe2a43553d",
+        "size_in_bytes": 5351
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/svg2pdf.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2350dbe357b7e949055993b847635b7e3a1c502d547061620d4768acebcdcae7",
+        "sha256_in_prefix": "2350dbe357b7e949055993b847635b7e3a1c502d547061620d4768acebcdcae7",
+        "size_in_bytes": 7209
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/__pycache__/tagremove.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "91c60b96826782429da8c6a883f4ecff7c19026a5df1339736bc271f3b939db2",
+        "sha256_in_prefix": "91c60b96826782429da8c6a883f4ecff7c19026a5df1339736bc271f3b939db2",
+        "size_in_bytes": 5550
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/base.py",
+        "path_type": "hardlink",
+        "sha256": "c2c850382e4cb91e9c25a6346e45e7d7894eb775de92e3ed8c52fe28e1e1ccf3",
+        "sha256_in_prefix": "c2c850382e4cb91e9c25a6346e45e7d7894eb775de92e3ed8c52fe28e1e1ccf3",
+        "size_in_bytes": 2793
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/clearmetadata.py",
+        "path_type": "hardlink",
+        "sha256": "c146a7c043438972341f954c4adca33c942319e087a5c93ab83ba33a178939c8",
+        "sha256_in_prefix": "c146a7c043438972341f954c4adca33c942319e087a5c93ab83ba33a178939c8",
+        "size_in_bytes": 3764
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/clearoutput.py",
+        "path_type": "hardlink",
+        "sha256": "81657dade38c5f82449157a07e24f43ff9a2518696720647423dbce647df0546",
+        "sha256_in_prefix": "81657dade38c5f82449157a07e24f43ff9a2518696720647423dbce647df0546",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/coalescestreams.py",
+        "path_type": "hardlink",
+        "sha256": "ee641490401179d83a0d75da47ece4da55f22f36bf6250e22b7a6406c58528e9",
+        "sha256_in_prefix": "ee641490401179d83a0d75da47ece4da55f22f36bf6250e22b7a6406c58528e9",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/convertfigures.py",
+        "path_type": "hardlink",
+        "sha256": "0ad132ebd27da269ad7c65a9271919f2b3159f4973e2eaa029c2d58110f4000f",
+        "sha256_in_prefix": "0ad132ebd27da269ad7c65a9271919f2b3159f4973e2eaa029c2d58110f4000f",
+        "size_in_bytes": 1539
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/csshtmlheader.py",
+        "path_type": "hardlink",
+        "sha256": "9cb7c5cc407e1220b56cf9071cd4d5bfde4c51b48374803a3cb28974512cd42f",
+        "sha256_in_prefix": "9cb7c5cc407e1220b56cf9071cd4d5bfde4c51b48374803a3cb28974512cd42f",
+        "size_in_bytes": 3307
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/execute.py",
+        "path_type": "hardlink",
+        "sha256": "172d5c3bd687fac0543a13a445b26baa2b276cb9fbf16add1b6bbc2a2cd14436",
+        "sha256_in_prefix": "172d5c3bd687fac0543a13a445b26baa2b276cb9fbf16add1b6bbc2a2cd14436",
+        "size_in_bytes": 4604
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/extractattachments.py",
+        "path_type": "hardlink",
+        "sha256": "e32d223b708bfc5796e822ce489d0b80e92ac286ef67319b83a4bdb46806327b",
+        "sha256_in_prefix": "e32d223b708bfc5796e822ce489d0b80e92ac286ef67319b83a4bdb46806327b",
+        "size_in_bytes": 4080
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/extractoutput.py",
+        "path_type": "hardlink",
+        "sha256": "00ef95946be33a9bbc2af0dc0e12e94172d906328d310dd9fecdcdad6a3e6481",
+        "sha256_in_prefix": "00ef95946be33a9bbc2af0dc0e12e94172d906328d310dd9fecdcdad6a3e6481",
+        "size_in_bytes": 6445
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/highlightmagics.py",
+        "path_type": "hardlink",
+        "sha256": "daa67621d5b7888f7428e2f82b1ab825ffceaea3fd2c6e9c75320ea0fa0eb402",
+        "sha256_in_prefix": "daa67621d5b7888f7428e2f82b1ab825ffceaea3fd2c6e9c75320ea0fa0eb402",
+        "size_in_bytes": 3197
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/latex.py",
+        "path_type": "hardlink",
+        "sha256": "0e87ab86934da84d91197d05b6e43f75967e0ec5071ea6e94c7ca10c9a91437a",
+        "sha256_in_prefix": "0e87ab86934da84d91197d05b6e43f75967e0ec5071ea6e94c7ca10c9a91437a",
+        "size_in_bytes": 2735
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/regexremove.py",
+        "path_type": "hardlink",
+        "sha256": "8a2f7cd534f1210c8356bd808e81259177c1c1d24932dfd2c5b0b93c1b8540e6",
+        "sha256_in_prefix": "8a2f7cd534f1210c8356bd808e81259177c1c1d24932dfd2c5b0b93c1b8540e6",
+        "size_in_bytes": 2498
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/sanitize.py",
+        "path_type": "hardlink",
+        "sha256": "7b8da2532fdba8b82f7b78bda1aa7ac536aed0a2c2bcd1ab0935190b82751385",
+        "sha256_in_prefix": "7b8da2532fdba8b82f7b78bda1aa7ac536aed0a2c2bcd1ab0935190b82751385",
+        "size_in_bytes": 5463
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/svg2pdf.py",
+        "path_type": "hardlink",
+        "sha256": "a9c6f4447a0005d9c4da4b269de2a506a3031b80d2dab007b94d3586a3b8b20d",
+        "sha256_in_prefix": "a9c6f4447a0005d9c4da4b269de2a506a3031b80d2dab007b94d3586a3b8b20d",
+        "size_in_bytes": 5589
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/preprocessors/tagremove.py",
+        "path_type": "hardlink",
+        "sha256": "eb239eb7346c526604901edda12a91141d73e5b47021858b16cc54577b530d00",
+        "sha256_in_prefix": "eb239eb7346c526604901edda12a91141d73e5b47021858b16cc54577b530d00",
+        "size_in_bytes": 4731
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/resources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/resources/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "14cec2bbcb07c21f0b5bf8d4ae73d065ebce0a82f8629a82e68e29b4bf6b3965",
+        "sha256_in_prefix": "14cec2bbcb07c21f0b5bf8d4ae73d065ebce0a82f8629a82e68e29b4bf6b3965",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/templates/README.md",
+        "path_type": "hardlink",
+        "sha256": "f14565d005ecd53ca7b4cd7619a68198058f3dbf673a9af3d4339ca96bc7013e",
+        "sha256_in_prefix": "f14565d005ecd53ca7b4cd7619a68198058f3dbf673a9af3d4339ca96bc7013e",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/templates/skeleton/Makefile",
+        "path_type": "hardlink",
+        "sha256": "309522ea7d42de9630946ff4def0556fc2b1e61631409b638d19e1afd09c0bd3",
+        "sha256_in_prefix": "309522ea7d42de9630946ff4def0556fc2b1e61631409b638d19e1afd09c0bd3",
+        "size_in_bytes": 682
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/templates/skeleton/README.md",
+        "path_type": "hardlink",
+        "sha256": "2ee0fe9b75d790aec01d8b08821933dfee41058318da7431c86b51b2d7f42dc2",
+        "sha256_in_prefix": "2ee0fe9b75d790aec01d8b08821933dfee41058318da7431c86b51b2d7f42dc2",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "20622d0cb57c1ae66e4fa4ff5d2ff855e581b3ba64751c20a834394da2861b94",
+        "sha256_in_prefix": "20622d0cb57c1ae66e4fa4ff5d2ff855e581b3ba64751c20a834394da2861b94",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/_contextlib_chdir.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c1ed95d769387e96a1aa838698518b0d83faacea850f64f175069b8d64f9433",
+        "sha256_in_prefix": "6c1ed95d769387e96a1aa838698518b0d83faacea850f64f175069b8d64f9433",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "961304802b02d59dcb3af29909b2d9b02739fac8fc0903d8d50eb9c32b202b96",
+        "sha256_in_prefix": "961304802b02d59dcb3af29909b2d9b02739fac8fc0903d8d50eb9c32b202b96",
+        "size_in_bytes": 1291
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fc385ad3a64126612df348e25ecaff6adf5e8e848a3b69065a987a5e78404ad",
+        "sha256_in_prefix": "6fc385ad3a64126612df348e25ecaff6adf5e8e848a3b69065a987a5e78404ad",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/io.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "959a1f122dd8b358a372007cdb0f24ad74c7e4507fff86686cedf150d27add18",
+        "sha256_in_prefix": "959a1f122dd8b358a372007cdb0f24ad74c7e4507fff86686cedf150d27add18",
+        "size_in_bytes": 4398
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/iso639_1.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d78a5c2c24be73461aa2a545e8acabafe53f0661de5771a4f9a87ad19f5f8ef",
+        "sha256_in_prefix": "1d78a5c2c24be73461aa2a545e8acabafe53f0661de5771a4f9a87ad19f5f8ef",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/lexers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f71be4c95eba04dc9450ac1d3e5a416a5ef2dc4eca6b660c5e52b6bdb8967129",
+        "sha256_in_prefix": "f71be4c95eba04dc9450ac1d3e5a416a5ef2dc4eca6b660c5e52b6bdb8967129",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/pandoc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "08eb447e3ab63ea0d49d12bbfb3c93a6184828083859ee71ee925f566663499f",
+        "sha256_in_prefix": "08eb447e3ab63ea0d49d12bbfb3c93a6184828083859ee71ee925f566663499f",
+        "size_in_bytes": 5019
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/text.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4474923858e7bba9395d0c58d9ae990bf729f94ccbf5138e2bdf0a622a19678d",
+        "sha256_in_prefix": "4474923858e7bba9395d0c58d9ae990bf729f94ccbf5138e2bdf0a622a19678d",
+        "size_in_bytes": 1579
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/__pycache__/version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0122c3c129bacbb060b86bba683ca7d7251e8858d35c995848e7a90b4b16047",
+        "sha256_in_prefix": "f0122c3c129bacbb060b86bba683ca7d7251e8858d35c995848e7a90b4b16047",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/_contextlib_chdir.py",
+        "path_type": "hardlink",
+        "sha256": "e1d23ff4f838ebcc3f7c68dd73c8aadc1c4af0f7d13c09f752f6a06a1f5dc3ea",
+        "sha256_in_prefix": "e1d23ff4f838ebcc3f7c68dd73c8aadc1c4af0f7d13c09f752f6a06a1f5dc3ea",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/base.py",
+        "path_type": "hardlink",
+        "sha256": "50fa03a4c90c25d5c2332afa6cc7a78daeddf171474631bfeb6d9c81b8b56e7c",
+        "sha256_in_prefix": "50fa03a4c90c25d5c2332afa6cc7a78daeddf171474631bfeb6d9c81b8b56e7c",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "f51a741b5cdae22c0fbe1ea7a1d50465c6a4e93ace61492d2de6458560fafd12",
+        "sha256_in_prefix": "f51a741b5cdae22c0fbe1ea7a1d50465c6a4e93ace61492d2de6458560fafd12",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/io.py",
+        "path_type": "hardlink",
+        "sha256": "cb9388bdfca9fcc4b24529a388d61e68c9b0fd388a3653046abf56e58d1a0d5d",
+        "sha256_in_prefix": "cb9388bdfca9fcc4b24529a388d61e68c9b0fd388a3653046abf56e58d1a0d5d",
+        "size_in_bytes": 3177
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/iso639_1.py",
+        "path_type": "hardlink",
+        "sha256": "23a3388856f0bf796278bb990e2e775d0effddebf080ff55f8dfde85630de576",
+        "sha256_in_prefix": "23a3388856f0bf796278bb990e2e775d0effddebf080ff55f8dfde85630de576",
+        "size_in_bytes": 1995
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/lexers.py",
+        "path_type": "hardlink",
+        "sha256": "1da208d2d4f7bbf064d05c68bfaa6e2f81db381ab27509a7e58e4be9fface18b",
+        "sha256_in_prefix": "1da208d2d4f7bbf064d05c68bfaa6e2f81db381ab27509a7e58e4be9fface18b",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/pandoc.py",
+        "path_type": "hardlink",
+        "sha256": "178d6f0e50a26d1084a5afcaf6469fc8d1b987689e037ea32eb81d837eff0800",
+        "sha256_in_prefix": "178d6f0e50a26d1084a5afcaf6469fc8d1b987689e037ea32eb81d837eff0800",
+        "size_in_bytes": 4580
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/text.py",
+        "path_type": "hardlink",
+        "sha256": "17bb49be81e15a0ca873c996bd256662a24e7e54f4de008503862fb7953fdbb9",
+        "sha256_in_prefix": "17bb49be81e15a0ca873c996bd256662a24e7e54f4de008503862fb7953fdbb9",
+        "size_in_bytes": 1083
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/utils/version.py",
+        "path_type": "hardlink",
+        "sha256": "9356f4bd94df387e6a15805cd4f1b1533eca05b75f17847ad3eac6427200c2b7",
+        "sha256_in_prefix": "9356f4bd94df387e6a15805cd4f1b1533eca05b75f17847ad3eac6427200c2b7",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "da5440d9178ed672227d8d9a0643d60d672a360bf17b2e3963776a93d89addb6",
+        "sha256_in_prefix": "da5440d9178ed672227d8d9a0643d60d672a360bf17b2e3963776a93d89addb6",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "498cc853e9e885d9d9c2e41b1d6b8e928fa533f2b4de73edd38708d20a5e1add",
+        "sha256_in_prefix": "498cc853e9e885d9d9c2e41b1d6b8e928fa533f2b4de73edd38708d20a5e1add",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4f20f4efa8b10c9620ff15f19448494b1c9aa2887ea1d90c02f2ad2bb07b271",
+        "sha256_in_prefix": "b4f20f4efa8b10c9620ff15f19448494b1c9aa2887ea1d90c02f2ad2bb07b271",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/__pycache__/debug.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf52df8aa84330140ca86c62a3d202f9237f2bc6054f58b372a640b38051a8f5",
+        "sha256_in_prefix": "cf52df8aa84330140ca86c62a3d202f9237f2bc6054f58b372a640b38051a8f5",
+        "size_in_bytes": 1470
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/__pycache__/files.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "69a123f18deeac323e2c00c46fccb2266df46c94dca7de35faea4d699979e7a6",
+        "sha256_in_prefix": "69a123f18deeac323e2c00c46fccb2266df46c94dca7de35faea4d699979e7a6",
+        "size_in_bytes": 7267
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/__pycache__/stdout.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c3a9c6224d3eae075500b15bc4d367bb93a0df17df4ae9409b6a13513cc1bc5",
+        "sha256_in_prefix": "7c3a9c6224d3eae075500b15bc4d367bb93a0df17df4ae9409b6a13513cc1bc5",
+        "size_in_bytes": 931
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/base.py",
+        "path_type": "hardlink",
+        "sha256": "0dda735c2a8c9f2625671c202a7961e6a3938ffcb9ac057327a6872dae843101",
+        "sha256_in_prefix": "0dda735c2a8c9f2625671c202a7961e6a3938ffcb9ac057327a6872dae843101",
+        "size_in_bytes": 1238
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/debug.py",
+        "path_type": "hardlink",
+        "sha256": "15f390cc86f0fd72cf137d8ed87bfc6cc14ce3d3e9a9f47b4b2e06fa07f51187",
+        "sha256_in_prefix": "15f390cc86f0fd72cf137d8ed87bfc6cc14ce3d3e9a9f47b4b2e06fa07f51187",
+        "size_in_bytes": 1534
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/files.py",
+        "path_type": "hardlink",
+        "sha256": "90167fb45ca0de8f01b239d50025c2acad3af71c0091b9f79efca9533f0a5fea",
+        "sha256_in_prefix": "90167fb45ca0de8f01b239d50025c2acad3af71c0091b9f79efca9533f0a5fea",
+        "size_in_bytes": 6046
+      },
+      {
+        "_path": "lib/python3.12/site-packages/nbconvert/writers/stdout.py",
+        "path_type": "hardlink",
+        "sha256": "94238771bee913a7531259a85a5f8569b834cd87735d9fa1be6b04cb12d02034",
+        "sha256_in_prefix": "94238771bee913a7531259a85a5f8569b834cd87735d9fa1be6b04cb12d02034",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/asciidoc/conf.json",
+        "path_type": "hardlink",
+        "sha256": "1766b170d0a225ca9cea1912b642d6a69d266268c0ef5080a0c550c411f9f474",
+        "sha256_in_prefix": "1766b170d0a225ca9cea1912b642d6a69d266268c0ef5080a0c550c411f9f474",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/asciidoc/index.asciidoc.j2",
+        "path_type": "hardlink",
+        "sha256": "95dbeebf0572cf46fb6ced9967c35772723871dc8a2417ec9569ddff164b64a7",
+        "sha256_in_prefix": "95dbeebf0572cf46fb6ced9967c35772723871dc8a2417ec9569ddff164b64a7",
+        "size_in_bytes": 2298
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/base/cell_id_anchor.j2",
+        "path_type": "hardlink",
+        "sha256": "651760df0932b9a41cdd043533a12ec4891d63b5f5a2ebbcfe3f4b516e9f5b87",
+        "sha256_in_prefix": "651760df0932b9a41cdd043533a12ec4891d63b5f5a2ebbcfe3f4b516e9f5b87",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/base/celltags.j2",
+        "path_type": "hardlink",
+        "sha256": "5c0aa3c112096fec5a4e96aee04244f7eee731757f3bff70e6fe300d4534ac9b",
+        "sha256_in_prefix": "5c0aa3c112096fec5a4e96aee04244f7eee731757f3bff70e6fe300d4534ac9b",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/base/display_priority.j2",
+        "path_type": "hardlink",
+        "sha256": "7bc815a9bae9c38b2c91db1ef74c2d262d5c379fa1e1c05b6e64c76856245cfa",
+        "sha256_in_prefix": "7bc815a9bae9c38b2c91db1ef74c2d262d5c379fa1e1c05b6e64c76856245cfa",
+        "size_in_bytes": 1680
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/base/jupyter_widgets.html.j2",
+        "path_type": "hardlink",
+        "sha256": "8be87114b96f168e860e7e3347777f2e3e1cd772a308fff86304c202747b7b87",
+        "sha256_in_prefix": "8be87114b96f168e860e7e3347777f2e3e1cd772a308fff86304c202747b7b87",
+        "size_in_bytes": 1250
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/base/mathjax.html.j2",
+        "path_type": "hardlink",
+        "sha256": "3db7bbffcd03ac937269272687035f5f23cba1271143caa75648858dd2699538",
+        "sha256_in_prefix": "3db7bbffcd03ac937269272687035f5f23cba1271143caa75648858dd2699538",
+        "size_in_bytes": 1226
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/base/null.j2",
+        "path_type": "hardlink",
+        "sha256": "a8a8932c15167e9c08423950d34346f0fbd91d71a537270cd841a26d4c15b049",
+        "sha256_in_prefix": "a8a8932c15167e9c08423950d34346f0fbd91d71a537270cd841a26d4c15b049",
+        "size_in_bytes": 6265
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/basic/conf.json",
+        "path_type": "hardlink",
+        "sha256": "16413e85897de8b2f5a5c3367dabc5976261be3bdeeda16e4591e99c72b4a78a",
+        "sha256_in_prefix": "16413e85897de8b2f5a5c3367dabc5976261be3bdeeda16e4591e99c72b4a78a",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/basic/index.html.j2",
+        "path_type": "hardlink",
+        "sha256": "a2f0a1a8ea9e50d0493014af4420cf06f17ac095610cf3c5e65cb763ea8fb3a8",
+        "sha256_in_prefix": "a2f0a1a8ea9e50d0493014af4420cf06f17ac095610cf3c5e65cb763ea8fb3a8",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/classic/base.html.j2",
+        "path_type": "hardlink",
+        "sha256": "893bf0b1beb1ba318338d02556326974ce598f423dc92e795b1b459819385205",
+        "sha256_in_prefix": "893bf0b1beb1ba318338d02556326974ce598f423dc92e795b1b459819385205",
+        "size_in_bytes": 8447
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/classic/conf.json",
+        "path_type": "hardlink",
+        "sha256": "304cfcbd58979029e0341a265cd27eaab19a7229740bd340c4606baadc7c58e8",
+        "sha256_in_prefix": "304cfcbd58979029e0341a265cd27eaab19a7229740bd340c4606baadc7c58e8",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/classic/index.html.j2",
+        "path_type": "hardlink",
+        "sha256": "75ed04d54bbc09b1f825255958c2ee588359fa22f46d5341f3ede48f3a4bf881",
+        "sha256_in_prefix": "75ed04d54bbc09b1f825255958c2ee588359fa22f46d5341f3ede48f3a4bf881",
+        "size_in_bytes": 2645
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/classic/static/style.css",
+        "path_type": "hardlink",
+        "sha256": "5865a609f4437b0464bc121cd567b619074e540a0515a3b82f222f764eb51e01",
+        "sha256_in_prefix": "5865a609f4437b0464bc121cd567b619074e540a0515a3b82f222f764eb51e01",
+        "size_in_bytes": 265101
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/compatibility/display_priority.tpl",
+        "path_type": "hardlink",
+        "sha256": "ff852d6c1076eb42863cf1ba4a294817adc2504290f3e293610231d263b6fbd2",
+        "sha256_in_prefix": "ff852d6c1076eb42863cf1ba4a294817adc2504290f3e293610231d263b6fbd2",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/compatibility/full.tpl",
+        "path_type": "hardlink",
+        "sha256": "0a6a6ca70b163b67c7c2b347fea29ff831ab285828d5a1e3c2a02eb88cf94034",
+        "sha256_in_prefix": "0a6a6ca70b163b67c7c2b347fea29ff831ab285828d5a1e3c2a02eb88cf94034",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/lab/base.html.j2",
+        "path_type": "hardlink",
+        "sha256": "b3316803040a2f63cccf0fb382e5f2c04236c74c3972072764bcab0d0d646dd1",
+        "sha256_in_prefix": "b3316803040a2f63cccf0fb382e5f2c04236c74c3972072764bcab0d0d646dd1",
+        "size_in_bytes": 10171
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/lab/conf.json",
+        "path_type": "hardlink",
+        "sha256": "55fdf1d9b384edc8604baaf88cb2a8fc2bf3a7999752c2d2049df7f5d9c344b9",
+        "sha256_in_prefix": "55fdf1d9b384edc8604baaf88cb2a8fc2bf3a7999752c2d2049df7f5d9c344b9",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/lab/index.html.j2",
+        "path_type": "hardlink",
+        "sha256": "8ef8c5e3f2a4970f4b5edc499a9496e376de6547d5852e1c3e7961869bd53bd0",
+        "sha256_in_prefix": "8ef8c5e3f2a4970f4b5edc499a9496e376de6547d5852e1c3e7961869bd53bd0",
+        "size_in_bytes": 3329
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/lab/mermaidjs.html.j2",
+        "path_type": "hardlink",
+        "sha256": "c5faf75b39c6c9248ef22f1d6122bccf9a6c80b067c12ae5ae35f595c9636a8b",
+        "sha256_in_prefix": "c5faf75b39c6c9248ef22f1d6122bccf9a6c80b067c12ae5ae35f595c9636a8b",
+        "size_in_bytes": 5354
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/lab/static/index.css",
+        "path_type": "hardlink",
+        "sha256": "917ff47850a7cc08fd0658026fda7672a85220aaab258e8849e891b37426f947",
+        "sha256_in_prefix": "917ff47850a7cc08fd0658026fda7672a85220aaab258e8849e891b37426f947",
+        "size_in_bytes": 240379
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/lab/static/theme-dark.css",
+        "path_type": "hardlink",
+        "sha256": "795f2d5069737cbeb5cba01e6b5c7cadbde227c909e43004c5a60f58d5160aec",
+        "sha256_in_prefix": "795f2d5069737cbeb5cba01e6b5c7cadbde227c909e43004c5a60f58d5160aec",
+        "size_in_bytes": 17102
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/lab/static/theme-light.css",
+        "path_type": "hardlink",
+        "sha256": "11bf3558fd3ed353a4c1401ac0c1730d01df073f6436d357c5bbf02a03bd6962",
+        "sha256_in_prefix": "11bf3558fd3ed353a4c1401ac0c1730d01df073f6436d357c5bbf02a03bd6962",
+        "size_in_bytes": 16019
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/base.tex.j2",
+        "path_type": "hardlink",
+        "sha256": "8c2a4a552ee3bb298d6e3daffc2b022acfb27c504ee62a9cbb9240ae7ddc15b3",
+        "sha256_in_prefix": "8c2a4a552ee3bb298d6e3daffc2b022acfb27c504ee62a9cbb9240ae7ddc15b3",
+        "size_in_bytes": 10469
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/conf.json",
+        "path_type": "hardlink",
+        "sha256": "f5f83dd1d3168a971b4290da519baffdb77f15fdcb6dfb066f41bb8ce175906c",
+        "sha256_in_prefix": "f5f83dd1d3168a971b4290da519baffdb77f15fdcb6dfb066f41bb8ce175906c",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/display_priority.j2",
+        "path_type": "hardlink",
+        "sha256": "608610db065e9f5b77e3f7197e92e53033804d8c2d92760de94dce2868a5d7c3",
+        "sha256_in_prefix": "608610db065e9f5b77e3f7197e92e53033804d8c2d92760de94dce2868a5d7c3",
+        "size_in_bytes": 1643
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/document_contents.tex.j2",
+        "path_type": "hardlink",
+        "sha256": "895634edf03909af7570f6f790462601f65f6fb203dee9bd2e5e52e6aa0575ea",
+        "sha256_in_prefix": "895634edf03909af7570f6f790462601f65f6fb203dee9bd2e5e52e6aa0575ea",
+        "size_in_bytes": 2782
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/index.tex.j2",
+        "path_type": "hardlink",
+        "sha256": "1489ef7b31f3e0c63938b473234de3f99609f289c8a532db20739a4b9321da0e",
+        "sha256_in_prefix": "1489ef7b31f3e0c63938b473234de3f99609f289c8a532db20739a4b9321da0e",
+        "size_in_bytes": 496
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/null.j2",
+        "path_type": "hardlink",
+        "sha256": "270f1be5708b9dc265cb38908ad5c6ef56f22adea044b025be60bddcc0fc6416",
+        "sha256_in_prefix": "270f1be5708b9dc265cb38908ad5c6ef56f22adea044b025be60bddcc0fc6416",
+        "size_in_bytes": 5544
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/report.tex.j2",
+        "path_type": "hardlink",
+        "sha256": "b4161be877b3c413fad67a08e52babc427fa6d1deb0ff298c0ebcdcaec6cbfcd",
+        "sha256_in_prefix": "b4161be877b3c413fad67a08e52babc427fa6d1deb0ff298c0ebcdcaec6cbfcd",
+        "size_in_bytes": 909
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/style_bw_ipython.tex.j2",
+        "path_type": "hardlink",
+        "sha256": "1a7d6554d54274676f0a3dbfefd2fa04f31ce4b7d0a43cb4b4538424e2ee5306",
+        "sha256_in_prefix": "1a7d6554d54274676f0a3dbfefd2fa04f31ce4b7d0a43cb4b4538424e2ee5306",
+        "size_in_bytes": 1989
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/style_bw_python.tex.j2",
+        "path_type": "hardlink",
+        "sha256": "0c1f94be7a3cd96fde38ab69a692d15fcf4bbaee43ef46a17d26042f0475ee56",
+        "sha256_in_prefix": "0c1f94be7a3cd96fde38ab69a692d15fcf4bbaee43ef46a17d26042f0475ee56",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/style_ipython.tex.j2",
+        "path_type": "hardlink",
+        "sha256": "3a83652c26e6bb1a60aae8c3a94f0dea00e4526cd8d909e658215fc70722f765",
+        "sha256_in_prefix": "3a83652c26e6bb1a60aae8c3a94f0dea00e4526cd8d909e658215fc70722f765",
+        "size_in_bytes": 2587
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/style_jupyter.tex.j2",
+        "path_type": "hardlink",
+        "sha256": "5875208e6008a59657908eb3fa0d74c795adbe91421911c2bc9357e29dd94ce4",
+        "sha256_in_prefix": "5875208e6008a59657908eb3fa0d74c795adbe91421911c2bc9357e29dd94ce4",
+        "size_in_bytes": 8233
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/latex/style_python.tex.j2",
+        "path_type": "hardlink",
+        "sha256": "0e863b62ed52527bd74862d3b17c156fa6e0aa5a54e00cead7564f8b105ddd5a",
+        "sha256_in_prefix": "0e863b62ed52527bd74862d3b17c156fa6e0aa5a54e00cead7564f8b105ddd5a",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/markdown/conf.json",
+        "path_type": "hardlink",
+        "sha256": "b4be05280de5ec848765e257bf438978ffb26f376de3433b7bf6fe96399f4be7",
+        "sha256_in_prefix": "b4be05280de5ec848765e257bf438978ffb26f376de3433b7bf6fe96399f4be7",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/markdown/index.md.j2",
+        "path_type": "hardlink",
+        "sha256": "0b491181102a1b45305da14538ded633cde251c6c0a18f05e6be3e3a3f09f0fb",
+        "sha256_in_prefix": "0b491181102a1b45305da14538ded633cde251c6c0a18f05e6be3e3a3f09f0fb",
+        "size_in_bytes": 2028
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/python/conf.json",
+        "path_type": "hardlink",
+        "sha256": "a5a650a0db6808b19902d957924e0dc324e3bb4beddd67152f247fc6da0a7071",
+        "sha256_in_prefix": "a5a650a0db6808b19902d957924e0dc324e3bb4beddd67152f247fc6da0a7071",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/python/index.py.j2",
+        "path_type": "hardlink",
+        "sha256": "8626c0d81e59f2c3f24a0253f469e0444731911a7555293d7e05103b9376dd53",
+        "sha256_in_prefix": "8626c0d81e59f2c3f24a0253f469e0444731911a7555293d7e05103b9376dd53",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/reveal/base.html.j2",
+        "path_type": "hardlink",
+        "sha256": "14de40dfecef962c8c81910091991a4fd4c8ddb233a3fa6e37461558e87fa1d5",
+        "sha256_in_prefix": "14de40dfecef962c8c81910091991a4fd4c8ddb233a3fa6e37461558e87fa1d5",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/reveal/cellslidedata.j2",
+        "path_type": "hardlink",
+        "sha256": "0bdd3266648edb0e7a6b1fd70d76e6cb1e216b8f05ed8bf8a4f5214be34e0d9f",
+        "sha256_in_prefix": "0bdd3266648edb0e7a6b1fd70d76e6cb1e216b8f05ed8bf8a4f5214be34e0d9f",
+        "size_in_bytes": 410
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/reveal/conf.json",
+        "path_type": "hardlink",
+        "sha256": "98aaaf2bd1e3d169354ea8274fe900b7b32859ff8cb5ac1617a2a3ea5b6ba3f7",
+        "sha256_in_prefix": "98aaaf2bd1e3d169354ea8274fe900b7b32859ff8cb5ac1617a2a3ea5b6ba3f7",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/reveal/index.html.j2",
+        "path_type": "hardlink",
+        "sha256": "aa3fcd48a8597b9c942d3742227c004945531946476f1528c998063718babf48",
+        "sha256_in_prefix": "aa3fcd48a8597b9c942d3742227c004945531946476f1528c998063718babf48",
+        "size_in_bytes": 5810
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/reveal/static/custom_reveal.css",
+        "path_type": "hardlink",
+        "sha256": "58b4a7b162f5a3df25be839c72526411cd3fb47b235232d1c54e0a28af79df72",
+        "sha256_in_prefix": "58b4a7b162f5a3df25be839c72526411cd3fb47b235232d1c54e0a28af79df72",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/rst/conf.json",
+        "path_type": "hardlink",
+        "sha256": "1da70913dee513e8ef7bafa5ed38b51ee1e79013493148471eed1e04c643d19f",
+        "sha256_in_prefix": "1da70913dee513e8ef7bafa5ed38b51ee1e79013493148471eed1e04c643d19f",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/rst/index.rst.j2",
+        "path_type": "hardlink",
+        "sha256": "b166e3399ff7aa85aa44e0db5e86110183671eaef7424a1806428b8b3516bfae",
+        "sha256_in_prefix": "b166e3399ff7aa85aa44e0db5e86110183671eaef7424a1806428b8b3516bfae",
+        "size_in_bytes": 2922
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/script/conf.json",
+        "path_type": "hardlink",
+        "sha256": "c7d5b2fe74e18435a7013cab4f53808d1b129001b86a75cd04c0ab03ce25cd3f",
+        "sha256_in_prefix": "c7d5b2fe74e18435a7013cab4f53808d1b129001b86a75cd04c0ab03ce25cd3f",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/script/script.j2",
+        "path_type": "hardlink",
+        "sha256": "cb4c856d2bb885d775adf5f6cabcddb86e73a9e36ffe6726b84dfc30f2b56582",
+        "sha256_in_prefix": "cb4c856d2bb885d775adf5f6cabcddb86e73a9e36ffe6726b84dfc30f2b56582",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/webpdf/conf.json",
+        "path_type": "hardlink",
+        "sha256": "637603db0a673753f5ebf43e1f213b55964618c3e026064bc8565c1228d654f2",
+        "sha256_in_prefix": "637603db0a673753f5ebf43e1f213b55964618c3e026064bc8565c1228d654f2",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "share/jupyter/nbconvert/templates/webpdf/index.pdf.j2",
+        "path_type": "hardlink",
+        "sha256": "991c61f27726892d4d80d86c0b1ae53bf6689294d8c105619be5837736a6a8ea",
+        "sha256_in_prefix": "991c61f27726892d4d80d86c0b1ae53bf6689294d8c105619be5837736a6a8ea",
+        "size_in_bytes": 36
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "88329e763c940718403c84baf333e4c28cd63da0e9651acbacd2e4124aba87bf",
+  "size": 528752,
+  "subdir": "osx-arm64",
+  "timestamp": 1741184688000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/nbconvert-core-7.16.6-py312hca03da5_0.conda",
+  "version": "7.16.6"
+}
